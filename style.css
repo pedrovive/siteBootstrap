@@ -1,0 +1,37 @@
+
+:root {
+    --cor-fundo:  #55311b;
+    --cor-texto: #faebd7;
+    --cor-page: #3d2c21;
+}
+/* .regua {
+    border: 1px solid #d426c0;
+} */
+
+.container-fundo {
+    background-color: var(--cor-page);
+}
+
+header{
+    background: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+span {
+    color: var(--cor-texto);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: sticky;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.carousel {
+    position: absolute;
+}
